@@ -21,7 +21,7 @@ Columns:
 # ------------------ LLM CLIENT ------------------
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=st.secrets("OPENAI_API_KEY")
+    api_key=st.secrets["OPENAI_API_KEY"]
 )
 
 # ------------------ TEXT TO SQL ------------------
